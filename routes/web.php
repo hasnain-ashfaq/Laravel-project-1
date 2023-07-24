@@ -28,6 +28,17 @@ Route::get('/generic', function () {
     return view('generic');
 });
 
+Route::get('/1st', function () {
+    return view('1st-file');
+});
+
+Route::get('/2nd', function () {
+    return view('2nd-file');
+});
+
+Route::get('/3rd', function () {
+    return view('3rd-file');
+});
 
 
 
