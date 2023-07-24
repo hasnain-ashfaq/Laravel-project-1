@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CRUDcontroller;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,7 +41,7 @@ Route::get('/3rd', function () {
     return view('3rd-file');
 });
 
-
+Route::get('/Crud',[CRUDcontroller::class,'greeting']);
 
 
 
